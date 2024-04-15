@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-        <title>How lucky you are?</title>
-        <link rel="stylesheet" href="mygame.css" />
-        <title>How lucky your are?</title>
-    </head>
 
-    <body>
-        <header>
-            <h1 class="title" id="idtitle">How Lucky You Are? 😎</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How lucky you are?</title>
+    <link rel="stylesheet" href="mygame.css" />
+    <title>How lucky your are?</title>
+</head>
 
-            <p class="between">(Between 0 to 20)</p>
+<body>
+    <header>
+        <h1 class="title" id="idtitle">How Lucky You Are? 😎</h1>
 
-            <button class="btn again" id="again">Again!</button>
+        <p class="between">(Between 0 to 20)</p>
 
-            <div class="number">?</div>
-        </header>
+        <button class="btn again" id="again">Again!</button>
 
-        <main id="main"> 
-            <section class="left">
-                <input type="number" class="guess" id="guessing">
+        <div class="number">?</div>
+    </header>
 
-                <button class="btn checkbtn" id="check">Check!</button>
-                
-            </section>
+    <main id="main">
+        <section class="left">
+            <input type="number" class="guess" id="guessing">
 
-            <section class="right">
-                <p class="message" id="message">Start Guessing...</p>
+            <button class="btn checkbtn" id="check">Check!</button>
 
-                <p class="label-score">
-                    💯 Score :
-                    <span class="score" id='score'>20</span>
-                </p>
+        </section>
 
-                <p class="label-highscore">
-                    🥇 Highscore:
-                    <span class="highscore" id="highscore">0</span>
-                </p>
-            </section>
-        </main>
-        
-        <script src="mygame.js"></script>
-    </body>
+        <section class="right">
+            <p class="message" id="message">Start Guessing...</p>
+
+            <p class="label-score">
+                💯 Score :
+                <span class="score" id='score'>20</span>
+            </p>
+
+            <p class="label-highscore">
+                🥇 Highscore:
+                <span class="highscore" id="highscore">0</span>
+            </p>
+        </section>
+    </main>
+
+    <script src="mygame.js"></script>
+</body>
+
 </html>
